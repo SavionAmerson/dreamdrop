@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+html, body {
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'moon';
+  src: url(./assests/fonts/Moon\ Bold.otf);
+  font-style: normal;
+  font-weight: 100;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* LANDING PAGE */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.landing-page {
+  background: url(./assests/images/bg-img-temp.png) no-repeat 50% 50%;
+  display: table;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  font-family: "moon";
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.landing-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landing-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* NAVBAR */
+
+.navbar, .bg-default {
+  background-color: #6453A3;
+}
+
+/* HOME PAGE */
+
+.home-page {
+    padding-top: 65px; 
+}
+
+.home-heading {
+  text-align: center;
+}
+
+.home-heading h1 {
+  font-size: 16px;
+}
+
+.home-heading h3 {
+  font-size: 14px;
 }
