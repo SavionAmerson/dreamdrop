@@ -12,7 +12,7 @@ html, body {
 
 /* LANDING PAGE */
 
-.landing-page {
+.landing-page, .register-page {
   background: url(./assests/images/bg-img-temp.png) no-repeat 50% 50%;
   display: table;
   height: 100vh;
@@ -33,6 +33,39 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* REGISTRATION */
+
+.register {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.register-box {
+  background-color: transparent;
+  border: solid white 2px;
+  width: 350px;
+  height: 350px;
+  padding: 15px 0;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.register-box h1, input {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.register-button {
+  margin: 25px 0;
+  border: solid white 2px;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
 }
 
 /* NAVBAR */

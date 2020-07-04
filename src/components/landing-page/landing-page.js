@@ -11,9 +11,9 @@ class Landing extends React.Component {
               <div className="landing-buttons">
               <a href="/home" className="btn btn-outline-light btn-lg col-md-4 col-6">Continue as Guest</a>
               <br />
-              <a href="#" className="btn btn-outline-light btn-lg col-md-4 col-6">Login</a>
+              <a href="login" className="btn btn-outline-light btn-lg col-md-4 col-6">Login</a>
               <br />
-              <a href="#" className="btn btn-outline-light btn-lg col-md-4 col-6">I'm new here</a>
+              <a href="/register" className="btn btn-outline-light btn-lg col-md-4 col-6">I'm new here</a>
               </div>
           </div>
         </div>
